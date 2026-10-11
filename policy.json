@@ -12,7 +12,7 @@
       "footer_label": "Footer navigation",
       "back_label": "Back to top",
       "language_label": "Policy language",
-      "contact_label": "Privacy and support",
+      "contact_label": "Contact us",
       "sections": [
         {
           "id": "about",
@@ -197,7 +197,7 @@
       "footer_label": "Навигация внизу страницы",
       "back_label": "К началу страницы",
       "language_label": "Язык политики",
-      "contact_label": "Конфиденциальность и поддержка",
+      "contact_label": "Связаться с нами",
       "sections": [
         {
           "id": "about",

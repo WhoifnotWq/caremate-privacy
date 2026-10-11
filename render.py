@@ -85,15 +85,17 @@ def shell(language, title, description, body, labels, contact, current_file):
   <meta name="description" content="{text(description)}">
   <meta name="referrer" content="no-referrer">
   <title>{text(title)} — CareMate Plants</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body id="top">
   <a class="skip-link" href="#main">{text(labels["skip_label"])}</a>
   <div class="site-wrap">
     <header class="site-header">
-      <a class="brand" href="index.html">
+      <div class="brand">
         {brand_mark()}<span>CareMate Plants</span>
-      </a>
+      </div>
       <nav class="language-nav" aria-label="{text(labels["language_label"])}">
         {nav}
       </nav>
