@@ -1,0 +1,376 @@
+{
+  "effective_date": "2026-10-11",
+  "contact": "nikitawq.dev@gmail.com",
+  "languages": {
+    "en": {
+      "title": "Privacy Policy",
+      "description": "How CareMate Plants handles local plant information, optional analytics, crash diagnostics, advertising, and your privacy choices.",
+      "effective_label": "Effective date",
+      "canonical_notice": "The English version is the canonical privacy notice for app-store publication. A Russian translation is available for convenience.",
+      "contents_label": "On this page",
+      "skip_label": "Skip to content",
+      "footer_label": "Footer navigation",
+      "back_label": "Back to top",
+      "language_label": "Policy language",
+      "contact_label": "Privacy and support",
+      "sections": [
+        {
+          "id": "about",
+          "title": "About CareMate Plants",
+          "paragraphs": [
+            "CareMate Plants is a general-purpose plant-care utility for keeping plant records, care schedules, photos, and a journal. This notice explains how the current app and this privacy website handle information.",
+            "The app has no accounts or login, no developer-operated backend for plant data, and no cloud sync of plants. It has no subscriptions, in-app purchases, or premium tier. It uses local notifications, optional Firebase Analytics, Firebase Crashlytics for diagnostics, and Yandex banner advertising."
+          ]
+        },
+        {
+          "id": "local-content",
+          "title": "Information Stored on Your Device",
+          "paragraphs": [
+            "Plant records, plant names, textual location tags, care settings, completion history, journal notes, selected photo copies, and app preferences are stored locally. CareMate does not operate a service that uploads or synchronizes this content to its own servers.",
+            "Local content is distinct from technical information processed by third-party SDKs and from information shown to the operating system for notifications. The sections below explain these other uses; local storage does not mean that every kind of information stays on the device."
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Plant Photos",
+          "paragraphs": [
+            "When you choose a plant photo through a gallery or camera flow available on your device, CareMate stores an app-owned local copy for that plant. The app has no developer-operated photo-upload service.",
+            "A selected or copied image may retain existing metadata, including EXIF information and GPS coordinates previously embedded by a camera or another app. CareMate does not guarantee that this metadata is removed. This is separate from the app requesting your current device location.",
+            "Replacing a photo or deleting its plant triggers cleanup of the previous app-owned copy. This does not delete gallery originals or guarantee removal of copies or caches held by a picker, camera, or other provider."
+          ]
+        },
+        {
+          "id": "notifications",
+          "title": "Notifications",
+          "paragraphs": [
+            "Care reminders are scheduled locally with the operating system. CareMate does not use Firebase Cloud Messaging or a remote push-notification service.",
+            "To display a reminder, the operating system receives notification content that can include the plant name, care name or custom care text, and textual location tag. Visibility on the lock screen and in notification history depends on your operating-system settings. You can manage notification permission and enable or disable reminders for individual care tasks."
+          ]
+        },
+        {
+          "id": "analytics",
+          "title": "Analytics",
+          "paragraphs": [
+            "Firebase Analytics is optional and helps us understand app usage and improve the product. CareMate keeps Analytics collection disabled and blocks app-defined product events until you grant the Analytics choice. Unknown or denied choices do not permit these events. You can change the choice in the privacy area of Settings.",
+            "App-defined analytics use limited values such as counts, predefined categories, app language, notification permission state, and coarse care timing, status, or activity. They do not include raw plant names, journal text, custom care text, plant photos, photo paths, or textual location tags.",
+            "When Analytics is enabled, the SDK may also process technical app, device, network, and usage metadata and identifiers under Google's policies. CareMate keeps Google's advertising-storage, advertising-user-data, and advertising-personalization consent settings denied. This does not make Firebase Analytics anonymous or mean that Firebase Core and all supporting SDKs have no technical activity before a choice."
+          ]
+        },
+        {
+          "id": "crash-reporting",
+          "title": "Crash Reporting",
+          "paragraphs": [
+            "Firebase Crashlytics helps diagnose failures and improve reliability. It operates independently of your Analytics choice; denying Analytics does not disable crash diagnostics.",
+            "Crash reporting may process technical stack traces, error categories, application state, app and device information, and installation or session metadata. CareMate's app-defined Dart error reports are sanitized to avoid sending raw plant names, location tags, journal notes, custom care text, or photo paths.",
+            "Native crash reporting and supporting SDKs may collect their own technical metadata. Sanitization of app-defined reports is not a guarantee that every possible native diagnostic contains no user information."
+          ]
+        },
+        {
+          "id": "advertising",
+          "title": "Advertising",
+          "paragraphs": [
+            "The Android app displays banner ads using Yandex Mobile Ads. CareMate passes your Advertising choice to the SDK before its explicit initialization and applies later changes. New app-issued ad requests remain blocked while the native choice is unconfirmed.",
+            "Yandex advertising technology may process technical app, device and network information, device or advertising identifiers where available, delivery and measurement signals, and ad interactions such as impressions and clicks. Identifier availability and use depend on the SDK, platform, and your device privacy controls.",
+            "Denying or withdrawing Advertising consent does not guarantee zero processing by the advertising technology. Ads may still be shown after you deny or withdraw the Advertising choice where permitted by the SDK and service configuration. The Advertising choice is not an ad-free setting. CareMate does not promise a particular advertising mode.",
+            "Yandex advertising technology may include supporting measurement components, including AppMetrica. CareMate does not offer or directly initialize AppMetrica as a separate app-analytics feature."
+          ]
+        },
+        {
+          "id": "third-party-services",
+          "title": "Third-Party Services",
+          "paragraphs": [
+            "The following providers may receive and process information through their SDKs. Their policies explain their processing and security practices. This notice describes how CareMate uses the services; it does not replace their policies."
+          ],
+          "services": [
+            {
+              "name": "Google Firebase",
+              "purpose": "Optional Analytics for product usage; Crashlytics for crash diagnostics and reliability. Supporting components such as Firebase Installations and Sessions can provide installation/session identifiers and related technical metadata.",
+              "data": "Limited app-defined usage values when Analytics is allowed, diagnostic traces and error categories, app/device/network information, and SDK installation or session identifiers and metadata.",
+              "links": [
+                {"label": "Firebase privacy information", "url": "https://firebase.google.com/support/privacy"},
+                {"label": "Google Privacy Policy", "url": "https://policies.google.com/privacy"}
+              ]
+            },
+            {
+              "name": "Yandex Mobile Ads",
+              "purpose": "Banner ad delivery, interactions, and supporting measurement technology, which may include AppMetrica.",
+              "data": "Technical app/device/network information, available device or advertising identifiers, delivery and measurement signals, and ad interactions.",
+              "links": [
+                {"label": "Yandex Privacy Policy", "url": "https://yandex.com/legal/confidential/en/"},
+                {"label": "Yandex Mobile Ads privacy information", "url": "https://ads.yandex.com/helpcenter/en/easy/integration/android/advanced-settings/security-privacy"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "location",
+          "title": "Location Information",
+          "paragraphs": [
+            "A plant's location, such as Bedroom, Office, or Balcony, is a text tag you enter. It is not GPS location. The Android app does not request precise or approximate location permission or use a GPS location API, and Yandex location tracking is disabled in the app's SDK configuration.",
+            "Third-party services may nevertheless derive a region or approximate location from an IP address or other network signals. A photo may also contain location metadata as explained above. These possibilities are separate from reading your current GPS location."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Data Retention and Deletion",
+          "paragraphs": [
+            "Local content is generally kept until you edit or delete it, remove app storage, or uninstall the app, subject to platform and device behavior. The app provides these individual controls:"
+          ],
+          "items": [
+            "Deleting a plant removes it from the active local collection with its current care and journal data, and triggers cleanup of its app-owned photo.",
+            "Deleting a care task removes its care configuration; historical journal entries may remain as history.",
+            "Deleting a journal entry removes the selected entry. Editing replaces the corresponding active content."
+          ],
+          "after": [
+            "If saved data cannot be read, the app may preserve a local recovery copy to protect against data loss. Starting fresh or adding new plants does not erase this copy. Recovery copies currently have no automatic expiration and no separate in-app deletion control.",
+            "There is no account-deletion flow because there are no accounts, and no current in-app 'delete all local data' button. Android's app-storage controls or uninstalling usually remove local application data, including recovery copies, subject to platform and device behavior. This is not a secure-erasure guarantee and does not remove gallery originals or other providers' copies.",
+            "CareMate's Android configuration disables app-data cloud backup and device-transfer backup. Platform and device-manufacturer behavior can vary. This statement is specific to Android.",
+            "Deleting a plant, care task, journal entry, or local app data does not erase information already processed by third-party services. Those services retain and process information according to their own policies and service configurations."
+          ]
+        },
+        {
+          "id": "security",
+          "title": "Data Security",
+          "paragraphs": [
+            "CareMate uses application-private storage where applicable and limits data included in app-defined telemetry, including sanitized error reports. Third-party network services use their own security mechanisms.",
+            "No storage or transmission method can guarantee complete protection. This notice does not promise app-level encryption at rest or secure erasure."
+          ]
+        },
+        {
+          "id": "choices",
+          "title": "Your Choices",
+          "paragraphs": [
+            "The initial privacy screen appears before onboarding. Analytics and Advertising are independent choices, and your choices are saved. You can review or change them later in Settings, in the privacy area."
+          ],
+          "items": [
+            "Allow optional data grants both choices; Use only necessary denies both. Manage choices lets you allow one and deny the other.",
+            "Deny or withdraw Analytics to stop app-defined product events and disable Analytics collection. Crash diagnostics remain independent.",
+            "Change Advertising consent to update the choice passed to Yandex. This does not remove all ads. If applying a choice fails, it remains saved and can be retried; new app-issued ad requests remain blocked until application is confirmed.",
+            "Use system notification settings and individual care-task reminder switches to control notifications.",
+            "Edit or delete plant, care, and journal records, choose or replace a photo, or use your operating system's app-storage and uninstall controls.",
+            "Use your device's advertising/privacy controls for identifiers where those controls are available."
+          ]
+        },
+        {
+          "id": "audience",
+          "title": "Audience",
+          "paragraphs": [
+            "CareMate Plants is a general-purpose plant-care utility. This Privacy Policy does not establish a separate age restriction."
+          ]
+        },
+        {
+          "id": "website",
+          "title": "This Privacy Website",
+          "paragraphs": [
+            "This website is a static information site. Its code adds no cookies, analytics, advertising scripts, tracking pixels, forms, or external fonts. Following an external link takes you to a service with its own privacy practices.",
+            "The public website is intended to be hosted on GitHub Pages. GitHub states that it logs and stores visitors' IP addresses for security purposes. This hosting activity is separate from the CareMate app's Analytics and Advertising choices."
+          ],
+          "links": [
+            {"label": "GitHub Pages data collection", "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"},
+            {"label": "GitHub Privacy Statement", "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"}
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Changes to This Privacy Policy",
+          "paragraphs": [
+            "This policy may be updated to reflect changes to the product or applicable requirements. The updated effective date will be shown on this page."
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "Contact Us",
+          "paragraphs": [
+            "For privacy questions or support, contact the CareMate Plants developer at the address below.",
+            "If you send a support email, your email address, message, and any attachments you choose to send are processed by your mail provider and our support mailbox to handle your request. CareMate does not automatically attach plant content, photos, journal entries, or logs."
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "title": "Политика конфиденциальности",
+      "description": "Как CareMate Plants обрабатывает локальные данные растений, необязательную аналитику, диагностику сбоев, рекламу и ваши настройки конфиденциальности.",
+      "effective_label": "Дата вступления в силу",
+      "canonical_notice": "Английская версия — основной документ для публикации в магазине приложений. Этот русский перевод предоставлен для удобства пользователей.",
+      "contents_label": "На этой странице",
+      "skip_label": "Перейти к содержимому",
+      "footer_label": "Навигация внизу страницы",
+      "back_label": "К началу страницы",
+      "language_label": "Язык политики",
+      "contact_label": "Конфиденциальность и поддержка",
+      "sections": [
+        {
+          "id": "about",
+          "title": "О CareMate Plants",
+          "paragraphs": [
+            "CareMate Plants — приложение для ухода за растениями, в котором можно вести записи о растениях, расписание ухода, фотографии и журнал. Эта политика объясняет, как текущая версия приложения и этот сайт обрабатывают информацию.",
+            "В приложении нет аккаунтов и входа в систему, серверной системы разработчика для данных растений и облачной синхронизации растений. Нет подписок, покупок внутри приложения и Premium. Используются локальные уведомления, необязательная аналитика Firebase Analytics, Firebase Crashlytics для диагностики и баннерная реклама Yandex."
+          ]
+        },
+        {
+          "id": "local-content",
+          "title": "Информация на вашем устройстве",
+          "paragraphs": [
+            "Записи о растениях, их названия, текстовые метки местоположения, настройки ухода, история выполненного ухода, заметки журнала, копии выбранных фотографий и настройки приложения хранятся локально. У CareMate нет собственного сервиса загрузки или синхронизации этого содержимого на серверы разработчика.",
+            "Локальное содержимое отличается от технических данных, которые обрабатывают сторонние SDK, и от информации, передаваемой операционной системе для уведомлений. Эти случаи описаны ниже: локальное хранение не означает, что любая информация остаётся только на устройстве."
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Фотографии растений",
+          "paragraphs": [
+            "Когда вы выбираете фотографию через галерею или доступный на устройстве сценарий камеры, CareMate сохраняет собственную локальную копию для растения. В приложении нет сервиса загрузки фотографий на серверы разработчика.",
+            "Выбранная или скопированная фотография может сохранять исходные метаданные, включая EXIF и GPS-координаты, ранее записанные камерой или другим приложением. CareMate не гарантирует их удаление. Это отдельный случай, не связанный с запросом текущего местоположения устройства.",
+            "Замена фотографии или удаление растения запускает очистку прежней копии, принадлежащей приложению. Это не удаляет оригинал из галереи и не гарантирует удаление копий или кеша, сохранённых средством выбора, камерой или другим поставщиком фотографий."
+          ]
+        },
+        {
+          "id": "notifications",
+          "title": "Уведомления",
+          "paragraphs": [
+            "Напоминания об уходе планируются локально средствами операционной системы. CareMate не использует Firebase Cloud Messaging или сервис удалённых push-уведомлений.",
+            "Для показа напоминания операционная система получает его содержимое: оно может включать название растения, название или пользовательский текст ухода и текстовую метку местоположения. Отображение на экране блокировки и в истории уведомлений зависит от настроек операционной системы. Вы можете управлять разрешением на уведомления и включать или выключать напоминания для отдельных задач ухода."
+          ]
+        },
+        {
+          "id": "analytics",
+          "title": "Аналитика",
+          "paragraphs": [
+            "Firebase Analytics — необязательный сервис, который помогает понимать использование приложения и улучшать продукт. CareMate держит сбор Analytics выключенным и блокирует события, определённые приложением, пока вы не разрешите аналитику. Неопределённый выбор или отказ не разрешает такие события. Выбор можно изменить в разделе конфиденциальности в настройках.",
+            "События приложения используют ограниченные значения: счётчики, заранее заданные категории, язык приложения, состояние разрешения на уведомления, общие сведения о сроках, статусе и действиях по уходу. В них не включаются исходные названия растений, текст журнала, пользовательский текст ухода, фотографии растений, пути к фотографиям и текстовые метки местоположения.",
+            "При включённой аналитике SDK также может обрабатывать технические сведения о приложении, устройстве, сети и использовании, а также идентификаторы согласно политикам Google. CareMate оставляет настройки согласия Google на рекламное хранение, использование пользовательских данных для рекламы и персонализацию рекламы запрещёнными. Это не делает Firebase Analytics анонимным и не означает полного отсутствия технической активности Firebase Core и всех вспомогательных SDK до вашего выбора."
+          ]
+        },
+        {
+          "id": "crash-reporting",
+          "title": "Диагностика сбоев",
+          "paragraphs": [
+            "Firebase Crashlytics помогает выявлять сбои и улучшать надёжность. Он работает независимо от вашего выбора Analytics: отказ от аналитики не выключает диагностику сбоев.",
+            "Диагностика может обрабатывать технические стеки вызовов, категории ошибок, состояние приложения, сведения о приложении и устройстве, метаданные установки или сессии. Сообщения об ошибках Dart, формируемые CareMate, очищаются, чтобы не отправлять исходные названия растений, метки местоположения, заметки журнала, пользовательский текст ухода и пути к фотографиям.",
+            "Нативная диагностика и вспомогательные SDK могут собирать собственные технические метаданные. Очистка сообщений приложения не гарантирует, что любая возможная нативная диагностика не содержит пользовательской информации."
+          ]
+        },
+        {
+          "id": "advertising",
+          "title": "Реклама",
+          "paragraphs": [
+            "Android-приложение показывает баннеры через Yandex Mobile Ads. CareMate передаёт ваш выбор для рекламы в SDK до его явной инициализации и применяет последующие изменения. Новые рекламные запросы со стороны приложения блокируются, пока применение выбора на нативном уровне не подтверждено.",
+            "Рекламные технологии Yandex могут обрабатывать технические сведения о приложении, устройстве и сети, доступные идентификаторы устройства или рекламы, сигналы доставки и измерения, а также взаимодействия с рекламой, например показы и нажатия. Доступность и использование идентификаторов зависят от SDK, платформы и настроек конфиденциальности устройства.",
+            "Отказ или отзыв согласия на рекламу не гарантирует отсутствия обработки данных рекламными технологиями. После отказа или отзыва согласия реклама всё ещё может показываться, если это допускают SDK и настройки сервиса. Настройка рекламы не является режимом без рекламы. CareMate не обещает конкретный рекламный режим.",
+            "Рекламные технологии Yandex могут включать вспомогательные компоненты измерения, в том числе AppMetrica. CareMate не предлагает и напрямую не инициализирует AppMetrica как отдельную функцию аналитики приложения."
+          ]
+        },
+        {
+          "id": "third-party-services",
+          "title": "Сторонние сервисы",
+          "paragraphs": [
+            "Следующие поставщики могут получать и обрабатывать информацию через свои SDK. Их политики описывают обработку данных и меры безопасности. Эта политика объясняет использование сервисов в CareMate, но не заменяет политики поставщиков."
+          ],
+          "services": [
+            {
+              "name": "Google Firebase",
+              "purpose": "Необязательная Analytics для анализа использования; Crashlytics для диагностики сбоев и надёжности. Вспомогательные компоненты, например Firebase Installations и Sessions, могут предоставлять идентификаторы установки или сессии и связанные технические метаданные.",
+              "data": "Ограниченные значения событий приложения при разрешённой аналитике, диагностические стеки и категории ошибок, сведения о приложении, устройстве и сети, идентификаторы SDK для установки или сессии и их метаданные.",
+              "links": [
+                {"label": "Информация Firebase о конфиденциальности", "url": "https://firebase.google.com/support/privacy"},
+                {"label": "Политика конфиденциальности Google", "url": "https://policies.google.com/privacy"}
+              ]
+            },
+            {
+              "name": "Yandex Mobile Ads",
+              "purpose": "Доставка баннерной рекламы, взаимодействия с ней и вспомогательные технологии измерения, которые могут включать AppMetrica.",
+              "data": "Технические сведения о приложении, устройстве и сети, доступные идентификаторы устройства или рекламы, сигналы доставки и измерения, взаимодействия с рекламой.",
+              "links": [
+                {"label": "Политика конфиденциальности Yandex", "url": "https://yandex.com/legal/confidential/en/"},
+                {"label": "Информация Yandex Mobile Ads о конфиденциальности", "url": "https://ads.yandex.com/helpcenter/en/easy/integration/android/advanced-settings/security-privacy"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "location",
+          "title": "Информация о местоположении",
+          "paragraphs": [
+            "Местоположение растения, например «Спальня», «Офис» или «Балкон», — текстовая метка, которую вы вводите. Это не GPS-местоположение. Android-приложение не запрашивает разрешения на точное или приблизительное местоположение и не использует GPS API. Отслеживание местоположения Yandex выключено в настройках SDK приложения.",
+            "При этом сторонние сервисы могут определять регион или приблизительное местоположение по IP-адресу и другим сетевым сигналам. Фотография также может содержать метаданные местоположения, как описано выше. Это отдельные случаи, не связанные с чтением текущего GPS-местоположения."
+          ]
+        },
+        {
+          "id": "retention",
+          "title": "Хранение и удаление данных",
+          "paragraphs": [
+            "Локальные данные обычно хранятся, пока вы не измените или не удалите их, не очистите хранилище приложения или не удалите приложение, с учётом особенностей платформы и устройства. В приложении доступны следующие отдельные действия:"
+          ],
+          "items": [
+            "Удаление растения удаляет его из активной локальной коллекции вместе с текущими данными ухода и журнала и запускает очистку его фотографии, принадлежащей приложению.",
+            "Удаление задачи ухода удаляет её настройки; прошлые записи журнала могут остаться как история.",
+            "Удаление записи журнала удаляет выбранную запись. Редактирование заменяет соответствующее активное содержимое."
+          ],
+          "after": [
+            "Если сохранённые данные не удаётся прочитать, приложение может оставить локальную копию для восстановления и защиты от потери данных. Начало работы заново или добавление новых растений не стирает эту копию. Такие копии сейчас не имеют автоматического срока удаления и отдельной кнопки удаления внутри приложения.",
+            "Удаления аккаунта нет, поскольку аккаунтов нет. Отдельной кнопки «Удалить все локальные данные» в приложении сейчас тоже нет. Очистка хранилища средствами Android или удаление приложения обычно удаляет локальные данные приложения, включая копии для восстановления, с учётом поведения платформы и устройства. Это не гарантия безопасного стирания; оригиналы из галереи и копии других поставщиков не удаляются.",
+            "В конфигурации CareMate для Android выключено облачное резервное копирование данных приложения и резервное копирование при переносе на другое устройство. Поведение платформы и производителей устройств может отличаться. Это утверждение относится только к Android.",
+            "Удаление растения, задачи ухода, записи журнала или локальных данных приложения не стирает информацию, которую уже обработали сторонние сервисы. Они хранят и обрабатывают информацию согласно своим политикам и настройкам сервисов."
+          ]
+        },
+        {
+          "id": "security",
+          "title": "Безопасность данных",
+          "paragraphs": [
+            "CareMate использует закрытое хранилище приложения там, где это применимо, и ограничивает данные в телеметрии приложения, включая очистку сообщений об ошибках. Сторонние сетевые сервисы используют собственные механизмы безопасности.",
+            "Ни один способ хранения или передачи не гарантирует полной защиты. Эта политика не обещает шифрование данных самим приложением при хранении или безопасное стирание."
+          ]
+        },
+        {
+          "id": "choices",
+          "title": "Ваш выбор",
+          "paragraphs": [
+            "Начальный экран конфиденциальности показывается до знакомства с приложением. Аналитика и реклама — независимые настройки, и ваш выбор сохраняется. Его можно просмотреть или изменить позже в разделе конфиденциальности в настройках."
+          ],
+          "items": [
+            "Разрешение необязательных данных включает оба согласия; использование только необходимого запрещает оба. Управление выбором позволяет разрешить одно и запретить другое.",
+            "Отказ или отзыв согласия на Analytics останавливает события, определённые приложением, и выключает сбор Analytics. Диагностика сбоев остаётся независимой.",
+            "Изменение согласия на рекламу обновляет выбор, передаваемый Yandex, но не убирает всю рекламу. Если применить выбор не удалось, он остаётся сохранённым и его можно применить повторно; новые рекламные запросы приложения блокируются до подтверждения применения.",
+            "Используйте системные настройки уведомлений и переключатели напоминаний в отдельных задачах ухода для управления уведомлениями.",
+            "Редактируйте или удаляйте растения, задачи ухода и записи журнала, выбирайте или заменяйте фотографии либо используйте системные средства очистки хранилища и удаления приложения.",
+            "Используйте настройки рекламы и конфиденциальности устройства для управления идентификаторами, если такие настройки доступны."
+          ]
+        },
+        {
+          "id": "audience",
+          "title": "Аудитория",
+          "paragraphs": [
+            "CareMate Plants — приложение общего назначения для ухода за растениями. Эта Политика конфиденциальности не устанавливает отдельного возрастного ограничения."
+          ]
+        },
+        {
+          "id": "website",
+          "title": "Этот сайт конфиденциальности",
+          "paragraphs": [
+            "Этот сайт содержит статическую информацию. Его код не добавляет cookies, аналитику, рекламные скрипты, пиксели отслеживания, формы и внешние шрифты. При переходе по внешней ссылке вы попадаете в сервис с собственными правилами конфиденциальности.",
+            "Публичный сайт предназначен для размещения на GitHub Pages. GitHub указывает, что регистрирует и сохраняет IP-адреса посетителей в целях безопасности. Эта обработка хостингом не зависит от выбора Analytics и Advertising в приложении CareMate."
+          ],
+          "links": [
+            {"label": "Сбор данных на GitHub Pages", "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"},
+            {"label": "Политика конфиденциальности GitHub", "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"}
+          ]
+        },
+        {
+          "id": "changes",
+          "title": "Изменения этой политики",
+          "paragraphs": [
+            "Политика может обновляться при изменениях продукта или применимых требований. Обновлённая дата вступления в силу будет указана на этой странице."
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "Связаться с нами",
+          "paragraphs": [
+            "По вопросам конфиденциальности или поддержки свяжитесь с разработчиком CareMate Plants по адресу ниже.",
+            "Если вы отправляете письмо в поддержку, ваш адрес, текст письма и вложения, которые вы решите отправить, обрабатываются вашим почтовым сервисом и нашим почтовым ящиком поддержки для ответа на запрос. CareMate автоматически не прикладывает данные растений, фотографии, записи журнала и логи."
+          ]
+        }
+      ]
+    }
+  }
+}
