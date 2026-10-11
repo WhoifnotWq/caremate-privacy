@@ -163,7 +163,7 @@
           "title": "This Privacy Website",
           "paragraphs": [
             "This website is a static information site. Its code adds no cookies, analytics, advertising scripts, tracking pixels, forms, or external fonts. Following an external link takes you to a service with its own privacy practices.",
-            "The public website is intended to be hosted on GitHub Pages. GitHub states that it logs and stores visitors' IP addresses for security purposes. This hosting activity is separate from the CareMate app's Analytics and Advertising choices."
+            "This privacy website is hosted on GitHub Pages. GitHub states that it logs and stores visitors' IP addresses for security purposes. This hosting activity is separate from the CareMate app's Analytics and Advertising choices."
           ],
           "links": [
             {"label": "GitHub Pages data collection", "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"},
@@ -348,7 +348,7 @@
           "title": "Этот сайт конфиденциальности",
           "paragraphs": [
             "Этот сайт содержит статическую информацию. Его код не добавляет cookies, аналитику, рекламные скрипты, пиксели отслеживания, формы и внешние шрифты. При переходе по внешней ссылке вы попадаете в сервис с собственными правилами конфиденциальности.",
-            "Публичный сайт предназначен для размещения на GitHub Pages. GitHub указывает, что регистрирует и сохраняет IP-адреса посетителей в целях безопасности. Эта обработка хостингом не зависит от выбора Analytics и Advertising в приложении CareMate."
+            "Этот сайт политики конфиденциальности размещён на GitHub Pages. GitHub указывает, что регистрирует и сохраняет IP-адреса посетителей в целях безопасности. Эта обработка хостингом не зависит от выбора Analytics и Advertising в приложении CareMate."
           ],
           "links": [
             {"label": "Сбор данных на GitHub Pages", "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"},
